@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CREATE</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+   <form action="/create" method="post">
+   <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+   <input type="text" name="title">
+   <input type="text" name="text">
+   <input type="submit" value="ok">
+   </form>
+  </body>
+</html>

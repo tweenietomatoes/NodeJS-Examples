@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>READ</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <% posts.forEach(function(post) { %>
+
+    <%= post.date  %>
+    <%= post.title %>
+    <%= post.text %>
+
+    <% }); %>
+  </body>
+</html>
